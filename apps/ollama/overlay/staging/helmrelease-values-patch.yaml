@@ -19,13 +19,6 @@ spec:
     persistentVolume:
       enabled: true
       existingClaim: ollama-models
-    # volumes:
-    #   - name: models
-    #     persistentVolumeClaim:
-    #       claimName: ollama-models
-    # volumeMounts:
-    #   - name: models
-    #     mountPath: /root/.ollama
     extraEnv:
       - name: OLLAMA_KEEP_ALIVE
         value: "1h"
