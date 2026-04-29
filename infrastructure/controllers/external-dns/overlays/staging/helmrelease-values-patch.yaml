@@ -15,7 +15,7 @@ spec:
       - gateway-grpcroute
     serviceAccount:
       annotations:
-        azure.workload.identity/client-id: "ab49cf48-e2d3-4d79-afdc-54b364ef2502"
+        azure.workload.identity/client-id: "ab49cf48-e2d3-4d79-afdc-54b364ef2502" # Updated with the Client ID of the managed identity
         azure.workload.identity/use: "true"
     podLabels:
       azure.workload.identity/use: "true"

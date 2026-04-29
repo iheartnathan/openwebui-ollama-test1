@@ -4,11 +4,6 @@ resources:
   - ../../base
   - secret.yaml
 patches:
-  # - path: serviceaccount-patch.yaml
-  #   target:
-  #     kind: ServiceAccount
-  #     name: workload-identity-sa
-  #     namespace: external-dns
   - path: helmrelease-values-patch.yaml
     target:
       kind: HelmRelease
