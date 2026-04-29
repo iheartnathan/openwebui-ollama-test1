@@ -21,7 +21,7 @@ spec:
       azure.workload.identity/use: "true"
     logLevel: debug
     domainFilters:
-      - staging.testhop.xyz
+      - testhop.xyz
     txtOwnerId: external-dns-staging
     extraVolumes:
       - name: azure-config-file
